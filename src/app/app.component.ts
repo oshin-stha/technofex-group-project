@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'group-project';
   ngOnInit(){
-    console.log("hello");
     console.log('this must throw error');
   }
 }
