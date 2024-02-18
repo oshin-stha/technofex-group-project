@@ -9,5 +9,6 @@ export class AppComponent implements OnInit {
   title = 'group-project';
   ngOnInit() {
     console.log('this must throw error');
+    console.log('error here');
   }
 }
