@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'group-project';
-  ngOnInit() {}
+  ngOnInit() {
+    this.getData();
+  }
   getData() {
     console.log('djfghohdnxv');
   }
